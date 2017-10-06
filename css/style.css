@@ -11,6 +11,7 @@ body{
     line-height: 1.6;
     letter-spacing: 0.1cm;
     background-color: #ffffff;
+    margin: 0;
 }
 a{
     color: #14c0c9;
@@ -144,3 +145,11 @@ span{
     --------------------------------------------*/
     
 }
+@media (max-width: 768px) {
+ .food-photo {
+    background-image: url(../images/lunch.jpg);
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+ }
